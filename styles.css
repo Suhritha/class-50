@@ -1,0 +1,45 @@
+.menu {
+  /* add correct code to place the menu correctly.*/
+
+  background-color: black;
+  font-size: 30px;
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: white;
+}
+body {
+  background-color: whitesmoke;
+
+}
+.grid {
+  /* add correct code to place the grid elements 
+  one beside the other equally.   */
+  display:flex;
+
+  flex-wrap: wrap;
+  font-family: sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid img {
+  border: 2px solid black;
+  border-radius: 50px;
+}
+.languages {
+  border-radius: 20px;
+  background-color: white;
+  margin: 5px;
+  border:2px dotted black;
+  width: 310px;
+  font-family: fantasy;
+}
+li{
+  
+  margin:5px;
+  padding: 15px;
+
+}
